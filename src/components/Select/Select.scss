@@ -1,0 +1,28 @@
+.room{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    .ban{
+        font-family: "PingFang-SC-Regular";
+        color: rgb(26, 26, 26);
+        font-size: 28px;
+        margin-top: 15px;
+        .isFill{
+          color: #FF0000;
+      }
+      }
+      .too{
+        font-family: "PingFang-SC-Regular";
+        color: rgb(128, 128, 128);
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(10px);
+        .arrow{
+            width: 14px;
+            height: 24px;
+            margin-left: 10px;
+          }
+      }
+  }

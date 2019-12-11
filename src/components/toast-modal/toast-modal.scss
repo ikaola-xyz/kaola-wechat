@@ -1,0 +1,54 @@
+.room{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    .mask{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #000;
+        z-index: 9000;
+        opacity: 0.5;
+    }
+    /* 弹出层 */
+    .modalDlg{
+        width: 480px;
+        position: fixed;
+        top: 25%;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        margin: 0 auto;
+        padding: 50px 0 60px 0;
+        background-color: #fff;
+        border-radius:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title{
+            color: #1A1A1A;
+            font-size: 32px;
+            font-weight: 500;
+            text-align: center;
+            padding-top: 40px;
+        }
+        .img{
+            width: 234px;
+            height: 174px;
+            display: block;
+        }
+        .i_know{
+            margin-top: 60px;
+            width: 360px;
+            height: 60px;
+            border-radius: 30px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 30px;
+            color: #fff;
+            background: #2F80ED;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import '../../scss/function';
+
+.pro-index {
+    background: #fff;
+    padding: 0 30px;
+    .head{
+        border-bottom: 1px solid #eeeeee;
+        padding: 60px 0;
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+        .img{
+            width: 122px;
+            height: 122px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .content{
+            display: inline-block;
+            padding-left: 40px;
+            width: 75%;
+            .name{
+                font-size: 40px;
+                color: #333333;
+                line-height: 60px;
+            }
+            .change{
+                font-size: 28px;
+                color: #A5A5A5;
+                .right_icon{
+                    float: right;
+                    width: 14px;
+                    height: 28px;
+                    display: inline-block;
+                    transform: translateY(4px);
+
+                }
+            }
+        }
+        .login{
+            height: 100px;
+            line-height: 100px;
+            display: inline-block;
+            padding: 0 30px;
+        }
+    }
+    .mine{
+        color: #333333;
+        font-size: 36px;
+        margin-bottom: 100px;
+    }
+}

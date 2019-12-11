@@ -1,0 +1,68 @@
+.room{
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(102, 102, 101, 0.3);
+    .title{
+        font-size: 28px;
+        .isFill{
+            color: #FF0000;
+        }
+    }
+    .selector{
+        display: flex;
+        justify-content: space-between;
+    }
+    .name{
+        font-size: 28px;
+        color: #000;
+        .isFill{
+            color: #FF0000;
+        }
+    }
+    .picker{
+        display: inline-block;
+        font-size: 24px;
+        color: #808080;
+        line-height: 42px;
+        .icon{
+            display: inline-block;
+            height: 24px;
+            width: 14px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url('../../images/back.png');
+            transform: translateY(5px);
+        }
+    }
+    .image{
+        .picture{
+            padding-top: 10px;
+            padding-bottom: 20px;
+            width: 100%;
+            .img{
+                width: 100%;
+            }
+            .remove{
+                padding: 10px;
+                border-radius: 50%;
+                display: inline-block;
+                position: absolute;
+                right: 42px;
+                background: #ccc;
+                color: #2F80ED;
+                padding: 0px 16px 7px;
+                opacity: 0.7;
+                transform: translateY(-20px) translateX(30px);
+
+            }   
+        }
+        .upload{
+            padding-top: 10px;
+            padding-bottom: 20px;
+            width: 162px;
+            height: 141px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url('../../images/upload_pic.png');
+        }
+    }
+}
